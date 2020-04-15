@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2be15cc1-0c85-451b-b5e2-e903f627a185" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/oo-conceitos/heranca/Animal.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oo-conceitos/visibilidade-encapsulamento/Visibilidade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oo-conceitos/Car.php" beforeDir="false" afterPath="$PROJECT_DIR$/oo-conceitos/aula-classes-objetos/Car.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +56,7 @@
       <option name="presentableId" value="Default" />
       <updated>1586911039767</updated>
       <workItem from="1586911043305" duration="95000" />
-      <workItem from="1586911162705" duration="3314000" />
+      <workItem from="1586911162705" duration="4913000" />
     </task>
     <servers />
   </component>
@@ -69,10 +68,10 @@
       <screen x="1440" y="132" width="1366" height="768" />
     </state>
     <state x="1795" y="159" width="700" height="741" key="#PHP/1440.132.1366.768/0.159.1440.741@1440.132.1366.768" timestamp="1586911638729" />
-    <state x="1949" y="242" width="561" height="561" key="NewPhpClassDialog" timestamp="1586913574001">
+    <state x="1949" y="242" width="721" height="561" key="NewPhpClassDialog" timestamp="1586914690864">
       <screen x="1440" y="132" width="1366" height="768" />
     </state>
-    <state x="1949" y="242" width="561" height="561" key="NewPhpClassDialog/1440.132.1366.768/0.159.1440.741@1440.132.1366.768" timestamp="1586913574001" />
+    <state x="1949" y="242" width="721" height="561" key="NewPhpClassDialog/1440.132.1366.768/0.159.1440.741@1440.132.1366.768" timestamp="1586914690864" />
     <state x="1639" y="159" key="SettingsEditor" timestamp="1586912581837">
       <screen x="1440" y="132" width="1366" height="768" />
     </state>
