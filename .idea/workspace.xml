@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2be15cc1-0c85-451b-b5e2-e903f627a185" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/oo-conceitos/visibilidade-encapsulamento/Product.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oo-conceitos/visibilidade-encapsulamento/encapsulamento.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oo-conceitos/classes-abstratas-interface-polimorfismo/Animal.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +27,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
@@ -58,7 +58,8 @@
       <updated>1586911039767</updated>
       <workItem from="1586911043305" duration="95000" />
       <workItem from="1586911162705" duration="6734000" />
-      <workItem from="1587004979669" duration="1240000" />
+      <workItem from="1587004979669" duration="1888000" />
+      <workItem from="1587171375958" duration="542000" />
     </task>
     <servers />
   </component>
@@ -70,14 +71,14 @@
       <screen x="1440" y="132" width="1366" height="768" />
     </state>
     <state x="1795" y="159" width="700" height="741" key="#PHP/1440.132.1366.768/0.159.1440.741@1440.132.1366.768" timestamp="1586911638729" />
-    <state x="1925" y="242" width="441" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1587005836578">
+    <state x="1925" y="242" width="441" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1587171779985">
       <screen x="1440" y="132" width="1366" height="768" />
     </state>
-    <state x="1925" y="242" width="441" height="562" key="#com.intellij.ide.util.MemberChooser/1440.132.1366.768/0.159.1440.741@1440.132.1366.768" timestamp="1587005836578" />
-    <state x="1949" y="242" width="721" height="561" key="NewPhpClassDialog" timestamp="1587005641744">
+    <state x="1925" y="242" width="441" height="562" key="#com.intellij.ide.util.MemberChooser/1440.132.1366.768/0.159.1440.741@1440.132.1366.768" timestamp="1587171779985" />
+    <state x="1949" y="242" width="825" height="561" key="NewPhpClassDialog" timestamp="1587171467186">
       <screen x="1440" y="132" width="1366" height="768" />
     </state>
-    <state x="1949" y="242" width="721" height="561" key="NewPhpClassDialog/1440.132.1366.768/0.159.1440.741@1440.132.1366.768" timestamp="1587005641744" />
+    <state x="1949" y="242" width="825" height="561" key="NewPhpClassDialog/1440.132.1366.768/0.159.1440.741@1440.132.1366.768" timestamp="1587171467186" />
     <state x="1946" y="448" width="399" height="149" key="NewPhpFileDialog" timestamp="1586916263843">
       <screen x="1440" y="132" width="1366" height="768" />
     </state>
