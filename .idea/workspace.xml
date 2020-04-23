@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2be15cc1-0c85-451b-b5e2-e903f627a185" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/autoload/namespace/autoload_psr4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoload/autoload_composer/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoload/autoload_composer/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoload/autoload_composer/src/Export/Contract/Export.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoload/autoload_composer/src/Export/JsonExport.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoload/autoload_composer/src/Export/XmlExport.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoload/namespace/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/autoload/namespace/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoload/namespace/src/Export/Contract/Export.php" beforeDir="false" afterPath="$PROJECT_DIR$/autoload/namespace/src/Export/Contract/Export.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoload/namespace/src/Export/JsonExport.php" beforeDir="false" afterPath="$PROJECT_DIR$/autoload/namespace/src/Export/JsonExport.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoload/namespace/src/Export/XmlExport.php" beforeDir="false" afterPath="$PROJECT_DIR$/autoload/namespace/src/Export/XmlExport.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +30,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/oo-conceitos/final" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/autoload/autoload_composer" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
@@ -42,6 +42,7 @@
       <recent name="$PROJECT_DIR$/oo-conceitos" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/autoload/autoload_composer" />
       <recent name="$PROJECT_DIR$/oo-conceitos/final" />
     </key>
   </component>
@@ -70,7 +71,7 @@
       <workItem from="1587004979669" duration="1888000" />
       <workItem from="1587171375958" duration="677000" />
       <workItem from="1587229736757" duration="10676000" />
-      <workItem from="1587597210589" duration="5984000" />
+      <workItem from="1587597210589" duration="7576000" />
     </task>
     <servers />
   </component>
