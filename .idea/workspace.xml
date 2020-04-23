@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2be15cc1-0c85-451b-b5e2-e903f627a185" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mais-oo-no-php/type-hiting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mais-oo-no-php/Traits/TraitsExemplos.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mais-oo-no-php/Traits/UploadTrait.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +69,7 @@
       <workItem from="1587171375958" duration="677000" />
       <workItem from="1587229736757" duration="10676000" />
       <workItem from="1587597210589" duration="8332000" />
-      <workItem from="1587678388246" duration="2937000" />
+      <workItem from="1587678388246" duration="4534000" />
     </task>
     <servers />
   </component>
@@ -84,14 +85,14 @@
       <screen x="1440" y="132" width="1366" height="768" />
     </state>
     <state x="1925" y="242" width="441" height="562" key="#com.intellij.ide.util.MemberChooser/1440.132.1366.768/0.159.1440.741@1440.132.1366.768" timestamp="1587679868896" />
-    <state x="1949" y="242" width="825" height="561" key="NewPhpClassDialog" timestamp="1587600916832">
+    <state x="1949" y="242" width="825" height="561" key="NewPhpClassDialog" timestamp="1587681966533">
       <screen x="1440" y="132" width="1366" height="768" />
     </state>
-    <state x="1949" y="242" width="825" height="561" key="NewPhpClassDialog/1440.132.1366.768/0.159.1440.741@1440.132.1366.768" timestamp="1587600916832" />
-    <state x="1946" y="448" width="373" height="149" key="NewPhpFileDialog" timestamp="1587679813096">
+    <state x="1949" y="242" width="825" height="561" key="NewPhpClassDialog/1440.132.1366.768/0.159.1440.741@1440.132.1366.768" timestamp="1587681966533" />
+    <state x="1946" y="448" width="373" height="149" key="NewPhpFileDialog" timestamp="1587682505685">
       <screen x="1440" y="132" width="1366" height="768" />
     </state>
-    <state x="1946" y="448" width="399" height="149" key="NewPhpFileDialog/1440.132.1366.768/0.159.1440.741@1440.132.1366.768" timestamp="1587679813096" />
+    <state x="1946" y="448" width="399" height="149" key="NewPhpFileDialog/1440.132.1366.768/0.159.1440.741@1440.132.1366.768" timestamp="1587682505685" />
     <state x="541" y="332" width="373" height="149" key="NewPhpFileDialog/1440.132.1366.768/55.27.1311.741@55.27.1311.741" timestamp="1587256953261" />
     <state x="1639" y="159" key="SettingsEditor" timestamp="1586912581837">
       <screen x="1440" y="132" width="1366" height="768" />
