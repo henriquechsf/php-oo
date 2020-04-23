@@ -5,20 +5,22 @@
 
 //use Export\JsonExport;
 //use Export\XmlExport;
-use Export\{
+use Code\Export\{
   JsonExport,
   XmlExport
 };
 
+require __DIR__ . '/autoload_psr4.php';
+
 // alternativa de autoload que substitui os requires individuais
-function autoload($class) {
-    $baseFolder = __DIR__ . '/src/';
+//function autoload($class) {
+//    $baseFolder = __DIR__ . '/src/';
+//
+//    $class = str_replace('\\', '/', $class);
+//    require $baseFolder . $class . '.php';
+//}
 
-    $class = str_replace('\\', '/', $class);
-    require $baseFolder . $class . '.php';
-}
-
-spl_autoload_register('autoload');
+//spl_autoload_register('autoload');
 
 if ($_GET['export'] == 'xml') {
     print (new XmlExport())->doExport();

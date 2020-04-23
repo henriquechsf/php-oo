@@ -1,5 +1,5 @@
 <?php
-namespace Export\Contract;
+namespace Code\Export\Contract;
 
 interface Export
 {

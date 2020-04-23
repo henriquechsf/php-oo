@@ -1,7 +1,8 @@
 <?php
-namespace Export;
+namespace Code\Export;
 
-use Export\Contract\Export;
+// importa a interface pra usar no implements
+use Code\Export\Contract\Export;
 
 class JsonExport implements Export
 {
