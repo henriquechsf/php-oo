@@ -5,7 +5,7 @@
 
 // alternativa de autoload que substitui os requires individuais
 function autoload($class) {
-    require __DIR__ .'/class/'. $class .'.php';
+    require __DIR__ . '/class/' . $class .'.php';
 }
 
 spl_autoload_register('autoload');
