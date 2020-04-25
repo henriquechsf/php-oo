@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2be15cc1-0c85-451b-b5e2-e903f627a185" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/projeto1-institucional/bootstrap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projeto1-institucional/src/View/View.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projeto1-institucional/views/site/index.phtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Curso_PHP-OO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Curso_PHP-OO.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projeto1-institucional/views/includes/footer.phtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projeto1-institucional/views/includes/header.phtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conceitos-base/autoload/autoload_composer/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/conceitos-base/autoload/autoload_composer/vendor/composer/ClassLoader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conceitos-base/exceptions/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/conceitos-base/exceptions/vendor/composer/ClassLoader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto1-institucional/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/projeto1-institucional/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto1-institucional/src/Controller/PageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/projeto1-institucional/src/Controller/PageController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projeto1-institucional/views/site/index.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/projeto1-institucional/views/site/index.phtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +82,7 @@
       <workItem from="1587678388246" duration="6187000" />
       <workItem from="1587685208731" duration="418000" />
       <workItem from="1587766234962" duration="11458000" />
-      <workItem from="1587852042113" duration="4108000" />
+      <workItem from="1587852042113" duration="5620000" />
     </task>
     <servers />
   </component>
