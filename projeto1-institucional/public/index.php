@@ -1,5 +1,5 @@
 <?php
-require __DIR__ . '/../vendor/autoload.php';
+require __DIR__ . '/../bootstrap.php';
 
 // quebra a URI iniciando pelo indice 1
 $url = substr($_SERVER['REQUEST_URI'], 1);

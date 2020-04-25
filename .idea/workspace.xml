@@ -2,70 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2be15cc1-0c85-451b-b5e2-e903f627a185" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/projeto1-institucional/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projeto1-institucional/public/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projeto1-institucional/src/Controller/PageController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projeto1-institucional/src/Controller/ProductController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projeto1-institucional/vendor/autoload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projeto1-institucional/vendor/composer/ClassLoader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projeto1-institucional/vendor/composer/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projeto1-institucional/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projeto1-institucional/vendor/composer/autoload_namespaces.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projeto1-institucional/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projeto1-institucional/vendor/composer/autoload_real.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projeto1-institucional/vendor/composer/autoload_static.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projeto1-institucional/bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projeto1-institucional/src/View/View.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projeto1-institucional/views/site/index.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Curso_PHP-OO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Curso_PHP-OO.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoload/autoload_composer/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/conceitos-base/autoload/autoload_composer/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoload/autoload_composer/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/conceitos-base/autoload/autoload_composer/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoload/autoload_composer/src/Export/Contract/Export.php" beforeDir="false" afterPath="$PROJECT_DIR$/conceitos-base/autoload/autoload_composer/src/Export/Contract/Export.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoload/autoload_composer/src/Export/JsonExport.php" beforeDir="false" afterPath="$PROJECT_DIR$/conceitos-base/autoload/autoload_composer/src/Export/JsonExport.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoload/autoload_composer/src/Export/XmlExport.php" beforeDir="false" afterPath="$PROJECT_DIR$/conceitos-base/autoload/autoload_composer/src/Export/XmlExport.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoload/autoload_composer/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/conceitos-base/autoload/autoload_composer/vendor/autoload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoload/autoload_composer/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/conceitos-base/autoload/autoload_composer/vendor/composer/ClassLoader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoload/autoload_composer/vendor/composer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/conceitos-base/autoload/autoload_composer/vendor/composer/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoload/autoload_composer/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/conceitos-base/autoload/autoload_composer/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoload/autoload_composer/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/conceitos-base/autoload/autoload_composer/vendor/composer/autoload_namespaces.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoload/autoload_composer/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/conceitos-base/autoload/autoload_composer/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoload/autoload_composer/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/conceitos-base/autoload/autoload_composer/vendor/composer/autoload_real.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoload/autoload_composer/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/conceitos-base/autoload/autoload_composer/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoload/exemplo_1/class/JsonExport.php" beforeDir="false" afterPath="$PROJECT_DIR$/conceitos-base/autoload/exemplo_1/class/JsonExport.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoload/exemplo_1/class/XmlExport.php" beforeDir="false" afterPath="$PROJECT_DIR$/conceitos-base/autoload/exemplo_1/class/XmlExport.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoload/exemplo_1/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/conceitos-base/autoload/exemplo_1/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoload/namespace/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/conceitos-base/autoload/namespace/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoload/namespace/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/conceitos-base/autoload/namespace/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoload/namespace/src/Export/Contract/Export.php" beforeDir="false" afterPath="$PROJECT_DIR$/conceitos-base/autoload/namespace/src/Export/Contract/Export.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoload/namespace/src/Export/JsonExport.php" beforeDir="false" afterPath="$PROJECT_DIR$/conceitos-base/autoload/namespace/src/Export/JsonExport.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoload/namespace/src/Export/XmlExport.php" beforeDir="false" afterPath="$PROJECT_DIR$/conceitos-base/autoload/namespace/src/Export/XmlExport.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exceptions/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/conceitos-base/exceptions/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exceptions/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/conceitos-base/exceptions/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exceptions/src/Exceptions/MyCustomException.php" beforeDir="false" afterPath="$PROJECT_DIR$/conceitos-base/exceptions/src/Exceptions/MyCustomException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exceptions/src/Sum.php" beforeDir="false" afterPath="$PROJECT_DIR$/conceitos-base/exceptions/src/Sum.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exceptions/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/conceitos-base/exceptions/vendor/autoload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exceptions/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/conceitos-base/exceptions/vendor/composer/ClassLoader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exceptions/vendor/composer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/conceitos-base/exceptions/vendor/composer/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exceptions/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/conceitos-base/exceptions/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exceptions/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/conceitos-base/exceptions/vendor/composer/autoload_namespaces.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exceptions/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/conceitos-base/exceptions/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exceptions/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/conceitos-base/exceptions/vendor/composer/autoload_real.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exceptions/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/conceitos-base/exceptions/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mais-oo-no-php/Traits/TraitsExemplos.php" beforeDir="false" afterPath="$PROJECT_DIR$/conceitos-base/mais-oo-no-php/Traits/TraitsExemplos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mais-oo-no-php/Traits/UploadTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/conceitos-base/mais-oo-no-php/Traits/UploadTrait.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mais-oo-no-php/classes-anonimas.php" beforeDir="false" afterPath="$PROJECT_DIR$/conceitos-base/mais-oo-no-php/classes-anonimas.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mais-oo-no-php/type-hiting.php" beforeDir="false" afterPath="$PROJECT_DIR$/conceitos-base/mais-oo-no-php/type-hiting.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oo-conceitos/aula-classes-objetos/Car.php" beforeDir="false" afterPath="$PROJECT_DIR$/conceitos-base/oo-conceitos/aula-classes-objetos/Car.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oo-conceitos/classes-abstratas-interface-polimorfismo/Animal.php" beforeDir="false" afterPath="$PROJECT_DIR$/conceitos-base/oo-conceitos/classes-abstratas-interface-polimorfismo/Animal.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oo-conceitos/classes-abstratas-interface-polimorfismo/Interface.php" beforeDir="false" afterPath="$PROJECT_DIR$/conceitos-base/oo-conceitos/classes-abstratas-interface-polimorfismo/Interface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oo-conceitos/classes-abstratas-interface-polimorfismo/Polimorfismo.php" beforeDir="false" afterPath="$PROJECT_DIR$/conceitos-base/oo-conceitos/classes-abstratas-interface-polimorfismo/Polimorfismo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oo-conceitos/estaticos/metodos-atributos-estaticos.php" beforeDir="false" afterPath="$PROJECT_DIR$/conceitos-base/oo-conceitos/estaticos/metodos-atributos-estaticos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oo-conceitos/final/Final1.php" beforeDir="false" afterPath="$PROJECT_DIR$/conceitos-base/oo-conceitos/final/Final1.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oo-conceitos/final/Final2.php" beforeDir="false" afterPath="$PROJECT_DIR$/conceitos-base/oo-conceitos/final/Final2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oo-conceitos/heranca/Animal.php" beforeDir="false" afterPath="$PROJECT_DIR$/conceitos-base/oo-conceitos/heranca/Animal.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oo-conceitos/metodos-magicos/call-callstatic.php" beforeDir="false" afterPath="$PROJECT_DIR$/conceitos-base/oo-conceitos/metodos-magicos/call-callstatic.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oo-conceitos/metodos-magicos/get-set.php" beforeDir="false" afterPath="$PROJECT_DIR$/conceitos-base/oo-conceitos/metodos-magicos/get-set.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oo-conceitos/metodos-magicos/toString.php" beforeDir="false" afterPath="$PROJECT_DIR$/conceitos-base/oo-conceitos/metodos-magicos/toString.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oo-conceitos/visibilidade-encapsulamento/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/conceitos-base/oo-conceitos/visibilidade-encapsulamento/Product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oo-conceitos/visibilidade-encapsulamento/Visibilidade.php" beforeDir="false" afterPath="$PROJECT_DIR$/conceitos-base/oo-conceitos/visibilidade-encapsulamento/Visibilidade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oo-conceitos/visibilidade-encapsulamento/encapsulamento.php" beforeDir="false" afterPath="$PROJECT_DIR$/conceitos-base/oo-conceitos/visibilidade-encapsulamento/encapsulamento.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conceitos-base/autoload/autoload_composer/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/conceitos-base/autoload/autoload_composer/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conceitos-base/exceptions/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/conceitos-base/exceptions/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projeto1-institucional/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/projeto1-institucional/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projeto1-institucional/src/Controller/PageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/projeto1-institucional/src/Controller/PageController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,10 +19,16 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
+    <pharConfigPath>$PROJECT_DIR$/projeto1-institucional/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/projeto1-institucional/vendor/composer" />
+    </include_path>
   </component>
   <component name="ProjectId" id="1aYSTHMZnskD3l1MAQDrVnLmDpI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -95,16 +47,16 @@
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/autoload/autoload_composer" />
-      <recent name="$PROJECT_DIR$/oo-conceitos/final" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/projeto1-institucional" />
       <recent name="$PROJECT_DIR$/conceitos-base" />
       <recent name="$PROJECT_DIR$/autoload/namespace/src/Export" />
       <recent name="$PROJECT_DIR$/autoload" />
       <recent name="$PROJECT_DIR$/oo-conceitos/aula-classes-objetos" />
-      <recent name="$PROJECT_DIR$/oo-conceitos" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/autoload/autoload_composer" />
+      <recent name="$PROJECT_DIR$/oo-conceitos/final" />
     </key>
   </component>
   <component name="RunManager">
@@ -135,7 +87,8 @@
       <workItem from="1587597210589" duration="8332000" />
       <workItem from="1587678388246" duration="6187000" />
       <workItem from="1587685208731" duration="418000" />
-      <workItem from="1587766234962" duration="11173000" />
+      <workItem from="1587766234962" duration="11458000" />
+      <workItem from="1587852042113" duration="4108000" />
     </task>
     <servers />
   </component>
@@ -151,14 +104,14 @@
       <screen x="1440" y="132" width="1366" height="768" />
     </state>
     <state x="1925" y="242" width="441" height="562" key="#com.intellij.ide.util.MemberChooser/1440.132.1366.768/0.159.1440.741@1440.132.1366.768" timestamp="1587679868896" />
-    <state x="1949" y="242" width="825" height="561" key="NewPhpClassDialog" timestamp="1587778425643">
+    <state x="1949" y="242" width="825" height="561" key="NewPhpClassDialog" timestamp="1587852711063">
       <screen x="1440" y="132" width="1366" height="768" />
     </state>
-    <state x="1949" y="242" width="825" height="561" key="NewPhpClassDialog/1440.132.1366.768/0.159.1440.741@1440.132.1366.768" timestamp="1587778425643" />
-    <state x="1946" y="448" width="373" height="149" key="NewPhpFileDialog" timestamp="1587773585566">
+    <state x="1949" y="242" width="825" height="561" key="NewPhpClassDialog/1440.132.1366.768/0.159.1440.741@1440.132.1366.768" timestamp="1587852711063" />
+    <state x="1946" y="448" width="373" height="149" key="NewPhpFileDialog" timestamp="1587853969087">
       <screen x="1440" y="132" width="1366" height="768" />
     </state>
-    <state x="1946" y="448" width="399" height="149" key="NewPhpFileDialog/1440.132.1366.768/0.159.1440.741@1440.132.1366.768" timestamp="1587773585566" />
+    <state x="1946" y="448" width="399" height="149" key="NewPhpFileDialog/1440.132.1366.768/0.159.1440.741@1440.132.1366.768" timestamp="1587853969087" />
     <state x="541" y="332" width="373" height="149" key="NewPhpFileDialog/1440.132.1366.768/55.27.1311.741@55.27.1311.741" timestamp="1587256953261" />
     <state x="1639" y="159" key="SettingsEditor" timestamp="1586912581837">
       <screen x="1440" y="132" width="1366" height="768" />
