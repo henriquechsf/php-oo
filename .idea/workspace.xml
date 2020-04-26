@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2be15cc1-0c85-451b-b5e2-e903f627a185" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/projeto1-institucional/views/404.phtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projeto2-catalogo-produtos/src/DB/Entity.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projeto2-catalogo-produtos/src/Entity/Product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projeto2-catalogo-produtos/views/site/single.phtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto1-institucional/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/projeto1-institucional/bootstrap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto1-institucional/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/projeto1-institucional/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto1-institucional/src/Controller/ProductController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto1-institucional/views/includes/header.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/projeto1-institucional/views/includes/header.phtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto1-institucional/views/site/index.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/projeto1-institucional/views/site/index.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projeto2-catalogo-produtos/src/Controller/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/projeto2-catalogo-produtos/src/Controller/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projeto2-catalogo-produtos/src/DB/Entity.php" beforeDir="false" afterPath="$PROJECT_DIR$/projeto2-catalogo-produtos/src/DB/Entity.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projeto2-catalogo-produtos/views/includes/header.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/projeto2-catalogo-produtos/views/includes/header.phtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,12 +37,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/projeto1-institucional/src/Controller" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/projeto2-catalogo-produtos/views/site" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/projeto2-catalogo-produtos/views/site" />
+      <recent name="$PROJECT_DIR$/projeto2-catalogo-produtos/src/Controller" />
       <recent name="$PROJECT_DIR$/projeto1-institucional/src/Controller" />
       <recent name="$PROJECT_DIR$/autoload/autoload_composer" />
       <recent name="$PROJECT_DIR$/oo-conceitos/final" />
@@ -89,7 +87,7 @@
       <workItem from="1587685208731" duration="418000" />
       <workItem from="1587766234962" duration="11458000" />
       <workItem from="1587852042113" duration="5740000" />
-      <workItem from="1587907093328" duration="10454000" />
+      <workItem from="1587907093328" duration="14862000" />
     </task>
     <servers />
   </component>

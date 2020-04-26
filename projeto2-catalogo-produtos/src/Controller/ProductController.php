@@ -8,14 +8,18 @@ class ProductController
 {
     public function index($id)
     {
-        print $id;
-//        // instanciando o PDO
-//        $pdo = new \PDO('mysql:dbname=formacao_php;host=localhost', 'admin', '123');
-//
-//        $view = new View('site/index.phtml');
-//
-//        $view->products = ($products = new Product($pdo))->findAll();
-//
-//        return $view->render();
+        // passa o id recebido da url para int
+        $id = (int) $id;
+
+        // instanciando o PDO
+        $pdo = new \PDO('mysql:dbname=formacao_php;host=localhost', 'admin', '123');
+
+        //var_dump((new Product($pdo))->find($id));
+
+        $view = new View('site/single.phtml');
+
+        $view->product = (new Product($pdo))->find($id);
+
+        return $view->render();
     }
 }
