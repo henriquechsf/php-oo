@@ -1,6 +1,7 @@
 <?php
 namespace Code\Controller;
 
+use Code\DB\Connection;
 use Code\Entity\Product;
 use Code\View\View;
 
@@ -12,7 +13,7 @@ class ProductController
         $id = (int) $id;
 
         // instanciando o PDO
-        $pdo = new \PDO('mysql:dbname=formacao_php;host=localhost', 'admin', '123');
+        $pdo = Connection::getInstance();
 
         //var_dump((new Product($pdo))->find($id));
 
