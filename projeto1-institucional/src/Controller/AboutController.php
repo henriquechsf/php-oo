@@ -3,11 +3,11 @@ namespace Code\Controller;
 
 use Code\View\View;
 
-class PageController
+class AboutController
 {
     public function index()
     {
-        $view = new View('site/index.phtml');
+        $view = new View('site/about.phtml');
 
         return $view->render();
     }
