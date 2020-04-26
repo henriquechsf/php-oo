@@ -3,7 +3,7 @@ namespace Code\Controller;
 
 use Code\View\View;
 
-class PageController
+class HomeController
 {
     public function index()
     {

@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2be15cc1-0c85-451b-b5e2-e903f627a185" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/projeto1-institucional/src/Controller/AboutController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projeto1-institucional/views/site/about.phtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projeto1-institucional/src/Controller/HomeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projeto1-institucional/views/site/contact.phtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto1-institucional/src/Controller/PageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/projeto1-institucional/src/Controller/PageController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto1-institucional/views/includes/footer.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/projeto1-institucional/views/includes/footer.phtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto1-institucional/views/includes/header.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/projeto1-institucional/views/includes/header.phtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto1-institucional/views/site/index.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/projeto1-institucional/views/site/index.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projeto1-institucional/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/projeto1-institucional/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projeto1-institucional/src/Controller/PageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/projeto1-institucional/src/Controller/ContactController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +85,7 @@
       <workItem from="1587685208731" duration="418000" />
       <workItem from="1587766234962" duration="11458000" />
       <workItem from="1587852042113" duration="5740000" />
-      <workItem from="1587907093328" duration="1565000" />
+      <workItem from="1587907093328" duration="2914000" />
     </task>
     <servers />
   </component>
@@ -103,6 +101,10 @@
       <screen x="1440" y="132" width="1366" height="768" />
     </state>
     <state x="1925" y="242" width="441" height="562" key="#com.intellij.ide.util.MemberChooser/1440.132.1366.768/0.159.1440.741@1440.132.1366.768" timestamp="1587679868896" />
+    <state x="1929" y="274" width="422" height="510" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587913031520">
+      <screen x="1440" y="132" width="1366" height="768" />
+    </state>
+    <state x="1929" y="274" width="422" height="510" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1440.132.1366.768/0.159.1440.741@1440.132.1366.768" timestamp="1587913031520" />
     <state x="1949" y="242" width="825" height="561" key="NewPhpClassDialog" timestamp="1587852711063">
       <screen x="1440" y="132" width="1366" height="768" />
     </state>

@@ -6,12 +6,12 @@ $url = substr($_SERVER['REQUEST_URI'], 1);
 $url = explode("/", $url);
 
 // definindo o controller padrao
-$controller = isset($url[0]) && $url[0] ? $url[0] : 'page';
+$controller = isset($url[0]) && $url[0] ? $url[0] : 'home';
 // definindo o metodo padrao
 $action = isset($url[1]) && $url[1] ? $url[1] : 'index';
 $param = isset($url[2]) && $url[2] ? $url[2] : null;
 
-// coloca a primeira letra da String em maiusculo e concatena - PageController
+// coloca a primeira letra da String em maiusculo e concatena - HomeController
 if (!class_exists($controller = "Code\Controller\\" . ucfirst($controller) . 'Controller')) {
     die ("404 - Página não encontrada!");
 }
