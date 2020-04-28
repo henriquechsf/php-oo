@@ -16,6 +16,7 @@ abstract class Entity
         $this->conn = $conn;
     }
 
+    // busca todos
     public function findAll($fields = '*')
     {
         $sql = 'SELECT ' . $fields . ' FROM ' . $this->table;
@@ -30,7 +31,7 @@ abstract class Entity
         return current($this->where(['id' => $id], '', $fields));
     }
 
-    // funcao que gera sql com where
+    // busca com condicao
     public function where(array $conditions, $operator = ' AND ', $fields = '*')
     {
         $sql = 'SELECT ' . $fields . ' FROM ' . $this->table . ' WHERE ';
@@ -47,16 +48,39 @@ abstract class Entity
         }
 
         $sql .= $where;
-
         $get = $this->conn->prepare($sql);
-
-        foreach ($conditions as $k => $v) {
-            gettype($v) == 'int' ? $get->bindValue(':' . $k, $v, \PDO::PARAM_INT)
-                                : $get->bindValue(':' . $k, $v, \PDO::PARAM_STR);
-        }
-
+        $get = $this->bind($sql, $conditions);
         $get->execute();
 
         return $get->fetchAll(\PDO::FETCH_ASSOC);
+    }
+
+    // insere produto
+    public function insert($data)
+    {
+        // pega as chaves associativas passados em $data
+        $binds = array_keys($data);
+        $fields = implode(', ', $binds);
+        $values = implode(', :', $binds);
+
+        $sql = 'INSERT INTO ' . $this->table . '(' . $fields . ', created_at, updated_at) 
+                VALUES(:' . $values .', NOW(), NOW())';
+
+        $insert = $this->bind($sql, $data);
+
+        return $insert->execute();
+    }
+
+    // função dinamica para executar o bind
+    private function bind($sql, $data)
+    {
+        $bind = $this->conn->prepare($sql);
+
+        foreach ($data as $k => $v) {
+            gettype($v) == 'int' ? $bind->bindValue(':' . $k, $v, \PDO::PARAM_INT)
+                : $bind->bindValue(':' . $k, $v, \PDO::PARAM_STR);
+        }
+
+        return $bind;
     }
 }
