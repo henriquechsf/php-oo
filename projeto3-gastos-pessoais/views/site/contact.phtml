@@ -1,0 +1,38 @@
+<?php require VIEWS_PATH . 'includes/header.phtml'; ?>
+    <div class="container">
+
+        <div class="jumbotron">
+            <h1 class="display-4">Entre em contato conosco</h1>
+            <div class="col-md-12">
+                <p>
+                    Telefone: <a href="tel:98999999999"><strong>98 99999-9999</strong></a>
+                    <br>
+                    E-mail: <a href="mailto:email@email.com">email@email.com</a>
+                </p>
+                <p>
+                    Ou através do formulário abaixo:
+                </p>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Nome completo</label>
+                        <input type="text" class="form-control" id="name" name="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" class="form-control" id="email" name="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputAssunto">Password</label>
+                        <input type="text" class="form-control" id="exampleInputAssunto" name="password">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputMensagem">Mensagem</label>
+                        <textarea name="message" class="form-control" id="message" cols="30" rows="10"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+<?php require VIEWS_PATH . 'includes/footer.phtml'; ?>
